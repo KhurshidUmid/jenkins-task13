@@ -1,7 +1,7 @@
 # NOTE: Update region and ami_id to match your environment.
 # The AMI ID must be an Amazon Linux 2 (or similar) HVM AMI in your chosen region.
 region        = "us-east-1"
-ami_id        = "ami-08ae91d91a31119d0" #ami-0a3c3a20c09d6f377  Example: Amazon Linux 2 AMI for us-east-1
+ami_id        = "ami-07d1f1c6865c6b0e7" #ami-0a3c3a20c09d6f377  Example: Amazon Linux 2 AMI for us-east-1
 instance_type = "t2.micro"
 
 # Pre-provisioned resource IDs
