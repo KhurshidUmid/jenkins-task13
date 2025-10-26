@@ -5,11 +5,11 @@ ami_id        = "ami-08ae91d91a31119d0" #ami-0a3c3a20c09d6f377  Example: Amazon 
 instance_type = "t2.micro"
 
 # Pre-provisioned resource IDs
-vpc_id            = "cmtr-xv69vdlr-vpc"
-public_subnet_ids = ["cmtr-xv69vdlr-public-subnet1", "cmtr-xv69vdlr-public-subnet2"]
-sg_ssh_id         = "cmtr-xv69vdlr-sg-ssh"
-sg_http_id        = "cmtr-xv69vdlr-sg-http"
-sg_lb_id          = "cmtr-xv69vdlr-sg-lb"
+vpc_id            = "vpc-05b1116bb4746a8b7"
+public_subnet_ids = ["subnet-01f88a33436e002b4", "subnet-0e628d04ef4831fad"]
+sg_ssh_id         = "sg-0aa00431a1b680abc"
+sg_http_id        = "sg-0b19d29072823e060"
+sg_lb_id          = "sg-0bb42038f8fb66aa5"
 
 # Resource names from lab tasks
 lb_name        = "cmtr-xv69vdlr-lb"
